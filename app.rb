@@ -12,6 +12,7 @@ class App < Sinatra::Base
 
   get '/' do
     "Welcome to Sinatra Sessions! In this lab, we will be learning about the general principles behind a sessions cookie. In order to proceed, let's go to the '/first_exercise' path."
+    erb :"/first_exercise"
   end
 
   get '/first_exercise' do
